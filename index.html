@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/181f15f912.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>BasketballStock</title>
+        <link rel="icon" href="Philadelphia 76ers.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <!-- création de la navbar en haut de page -->
+            <div class="logo">BasketballStock</div>
+            <!-- menu hamburger pour le responsive -->
+            <div class="hamburger"> 
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <!-- création des différentes puces cliquables -->
+                <ul>
+                    <li>
+                        <a href="#" class="active">Accueil</a> <!-- href qui va servir à relier les différentes pages -->
+                    </li>
+                    <li>
+                        <a href="articles76erstemplate.html">76ers stories</a>
+                    </li>
+                    <li>
+                        <a href="articlesBullstemplate.html">Antenne Bulls</a>
+                    </li>
+                    <li>
+                        <a href="">Divers</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Inscrivez vous</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- javascript utilisé d'un tuto youtube pour mettre en place le menu hamburger -->
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+        <main>
+            <!-- création du contenu principal de la page avec plusieurs div et sections -->
+            <section class="principal">
+                <!-- création de la box à gauche de l'écran -->
+                <div class="left-side">
+                    <div class="upper-side">
+                        <h2 class="titleprincipal">Trending now</h2>
+                        <div class="boxes">
+                            <!-- création de plus petites boites qui vont s'inclure dans la grande boite de gauche -->
+                            <div class="box1">
+                                <a href="articles76ers1.html"><h3 class="titre-article-1">76ers story #1</h3></a>
+                                <a href="articles76ers1.html"><img src="images/syracuse nationals.jpg" alt="Syracuse Nationals"></a>
+                                <a href="articles76ers1.html"><p class="desc-1">Découvrez comment a été créée la franchise des Philadelphia 76ers...</p></a>
+                            </div>
+                            <div class="box2">
+                                <a href="articlesBulls1.html"><h3 class="titre-article-2">Antenne Bulls #1</h3></a>
+                                <a href="articlesBulls1.html"><img src="images/bulls trio.jpg" alt="Jordan, Pippen, Rodman"></a>
+                                <a href="articlesBulls1.html"><p class="desc-2">Découvrez comment a été créée la franchise des Chicago Bulls...</p></a>
+                            </div>
+                            <div class="box3">
+                                <a href="nbaforgottenstars1.html"><h3 class="titre-article-3">Stars oubliées #1</h3></a>
+                                <a href="nbaforgottenstars1.html"><img src="images/marques johnson.jpg" alt="Marques Johnson"></a>
+                                <a href="nbaforgottenstars1.html"><p class="desc-3">Découvrez le premier article de la série des stars oubliées qui porte sur Marques Johnson...</p></a>
+                            </div>
+                            <div class="box1bis">
+                                <a href="presentationsite.html"><h3 class="titre-second-1">Présentation du site</h3></a>
+                                <a href="presentationsite.html"><img src="images/tyrese maxey.jfif" alt="Tyrese Maxey"></a>
+                                <a href="presentationsite.html"><p class="desc-1bis">Découvrez le nouveau QG du basket en France...</p></a>
+                            </div>
+                            <div class="box2bis">
+                                <a href="articlesBulls1.html"><h3 class="titre-second-2">Antenne Bulls #1</h3></a>
+                                <a href="articlesBulls1.html"><img src="images/bulls trio.jpg" alt="Jordan, Pippen, Rodman"></a>
+                                <a href="articlesBulls1.html"><p class="desc-2bis">Découvrez comment a été créée la franchise des Chicago Bulls...</p></a>
+                            </div>
+                            <div class="box3bis">
+                                <a href="nbaforgottenstars1.html"><h3 class="titre-second-3">Stars oubliées #1</h3></a>
+                                <a href="nbaforgottenstars1.html"><img src="images/marques johnson.jpg" alt="Marques Johnson"></a>
+                                <a href="nbaforgottenstars1.html"><p class="desc-3bis">Découvrez le premier article de la série des stars oubliées qui porte sur Marques Johnson...</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- création de la div centrale -->
+                <div class="main-article">
+                    <h2>Bienvenue sur BasketballStock, votre site sur l'histoire de la NBA.</h2>
+                    <a href="presentationsite.html"><h3 class="titre-article-pres">Présentation du site et de son contenu</h3></a>
+                    <a href="presentationsite.html"><img src="images/tyrese maxey.jfif" alt="Tyrese Maxey"></a>
+                    <a href="presentationsite.html"><p class="text-desc-pres"><b>A travers cet article, vous découvrirez la reflexion que j'ai eue en amont de la création de ce site. Vous apprendrez à me connaître et nous allons alors débuter un long voyage sur les traces de la NBA...</b></p></a>
+                    <a href="articles76ers1.html"><h3 class="titre-main-article">76ers story #1</h3></a>
+                    <a href="articles76ers1.html"><img src="images/syracuse nationals.jpg" alt="Syracuse Nationals"></a>
+                    <a href="articles76ers1.html"><p class="text-main-desc"><b>Bienvenue dans 76ers stories, la série qui vous raconte l'histoire de votre franchise préférée de A à Z. Aujourd'hui, découvrons ensemble la création de la franchise...</b></p></a>
+                </div>
+                <!-- création de la box de droite -->
+                <div class="right-side">
+                    <!-- création d'une barre de recherche avec suggestions (tuto youtube avec fichier javascript ci-joint) -->
+                    <div class="search-box">
+                        <div class="row">
+                            <!-- instauration de la barre et de la petite icone de loupe pour rechercher -->
+                            <!-- barre de recherche qui ne marche d'ailleurs pas car je ne savais pas comment relier les suggestions en javascript à une page html -->
+                            <input type="text" id="input-box" placeholder="Rechercher..." autocomplete="off" class="inputsearchbox">
+                            <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="result-box">
+                        </div>
+                    </div>
+                    <!-- création des div pour les différentes catégories sur un menu déroulant -->
+                    <nav class="categories">
+                        <label for="btn-1" class="button1">Catégories<span class="fas fa-caret-down"></span></label>
+                        <input type="checkbox" id="btn-1">
+                        <ul class="menu">
+                            <li><a href="articles76erstemplate.html">76ers stories</a></li>
+                            <li><a href="articlesBullstemplate.html">Antenne Bulls</a></li>
+                            <li><a href="">NBA Forgotten Stars</a></li>
+                            <li><a href="">Busted NBA</a></li>
+                            <li><a href="">Les grands What if ?</a></li>
+                        </ul>
+                        <!-- création de plusieurs menus déroulants dans d'autres menus déroulants avec logos des équipes qui ne conduisent à aucune page pour le moment vu que les pages en question n'ont pas eu le temps d'être créées. -->
+                        <label for="btn-2" class="button2">Équipes<span class="fas fa-caret-down"></span></label>
+                        <input type="checkbox" id="btn-2">
+                        <ul class="menu2">
+                            <li>
+                            <label for="btn-3" class="atlantic">Atlantic Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href=""><img src="images/Philadelphia 76ers.png" alt="Logo">Philadelphia 76ers</a></li>
+                                    <li><a href=""><img src="images/logo celtics.png" alt="Logo">Boston Celtics</a></li>
+                                    <li><a href=""><img src="images/logo knicks.png" alt="Logo">New York Knicks</a></li>
+                                    <li><a href=""><img src="images/logo nets.png" alt="Logo">Brooklyn Nets</a></li>
+                                    <li><a href=""><img src="images/logo raptors.png" alt="Logo">Toronto Raptors</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                            <label for="btn-4" class="central">Central Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-4">
+                                <ul>
+                                    <li><a href=""><img src="images/logo bucks.png" alt="Logo">Milwaukee Bucks</a></li>
+                                    <li><a href=""><img src="images/logo bulls.png" alt="Logo">Chicago Bulls</a></li>
+                                    <li><a href=""><img src="images/logo cavs.png" alt="Logo">Cleveland Cavaliers</a></li>
+                                    <li><a href=""><img src="images/logo pacers.png" alt="Logo">Indiana Pacers</a></li>
+                                    <li><a href=""><img src="images/logo pistons.png" alt="Logo">Detroit Pistons</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                            <label for="btn-5" class="southeast">Southeast Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-5">
+                                <ul>
+                                    <li><a href=""><img src="images/logo hawks.png" alt="Logo">Atlanta Hawks</a></li>
+                                    <li><a href=""><img src="images/logo heat.png" alt="Logo">Miami Heat</a></li>
+                                    <li><a href=""><img src="images/logo hornets.png" alt="Logo">Charlotte Hornets</a></li>
+                                    <li><a href=""><img src="images/logo magic.png" alt="Logo">Orlando Magic</a></li>
+                                    <li><a href=""><img src="images/logo wizards.png" alt="Logo">Washington Wizards</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                            <label for="btn-6" class="northwest">Northwest Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-6">
+                                <ul>
+                                    <li><a href=""><img src="images/logo jazz.png" alt="Logo">Utah Jazz</a></li>
+                                    <li><a href=""><img src="images/logo nuggets.png" alt="Logo">Denver Nuggets</a></li>
+                                    <li><a href=""><img src="images/logo thunder.png" alt="Logo">Oklahoma City Thunder</a></li>
+                                    <li><a href=""><img src="images/logo timberwolves.png" alt="Logo">Minnesota TimberWolves</a></li>
+                                    <li><a href=""><img src="images/logo blazers.png" alt="Logo">Portland Trail Blazers</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                            <label for="btn-7" class="pacific">Pacific Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-7">
+                                <ul>
+                                    <li><a href=""><img src="images/logo clippers.png" alt="Logo">Los Angeles Clippers</a></li>
+                                    <li><a href=""><img src="images/logo kings.png" alt="Logo">Sacramento Kings</a></li>
+                                    <li><a href=""><img src="images/logo lakers.png" alt="Logo">Los Angeles Lakers</a></li>
+                                    <li><a href=""><img src="images/logo suns.png" alt="Logo">Phoenix Suns</a></li>
+                                    <li><a href=""><img src="images/logo warriors.png" alt="Logo">Golden State Warriors</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                            <label for="btn-8" class="southwest">Southwest Division<span class="fas fa-caret-down"></span></label>
+                            <input type="checkbox" id="btn-8">
+                                <ul>
+                                    <li><a href=""><img src="images/logo grizzlies.png" alt="Logo">Memphis Grizzlies</a></li>
+                                    <li><a href=""><img src="images/logo mavericks.png" alt="Logo">Dallas Mavericks</a></li>
+                                    <li><a href=""><img src="images/logo pelicans.png" alt="Logo">New Orleans Pelicans</a></li>
+                                    <li><a href=""><img src="images/logo rockets.png" alt="Logo">Houston Rockets</a></li>
+                                    <li><a href=""><img src="images/logo spurs.png" alt="Logo">San Antonio Spurs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- lien avec le fichier js qui va permettre d'afficher les suggestions -->
+                <script src="autocomplete.js"></script>
+            </section>
+        </main>
+        <footer>
+            <!-- début du footer avec formulaire d'inscription (non relié à quelconque base de données donc qui ne marche pas) -->
+            <h3 id="footer">Inscris toi ici pour rejoindre la communauté "Website Name"</h3>
+            <form>
+                <input type="text" name="pseudo" placeholder="Pseudo/Prénom" class="formulaire">
+                <input type="number" name="age" placeholder="Age" class="formulaire">
+                <input type="email" name="email" placeholder="Adresse mail" class="formulaire">
+                <input type="password" name="password" placeholder="Mot de passe" class="formulaire">
+                <button class="formulairesend">Soumettre le formulaire</button>
+            </form>
+
+            <div class="Icons">
+            </div>
+            <!-- mentions légales, etc... pour finir -->
+            <p>
+                Mentions légales<br>
+                Tous droits reservés / BasketballStock<br>
+                2023-present
+            </p>
+        </footer>
+    </body>
+</html>
+
+<!-- les autres fichiers html ne sont pas commentés car ils ressemblent pour la plupart à celui ci -->
+
+
